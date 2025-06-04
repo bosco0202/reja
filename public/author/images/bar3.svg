@@ -1,0 +1,21 @@
+<svg width="25.500000" height="27.002441" viewBox="0 0 25.5 27.0024" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_3_220_dd" x="0.000000" y="0.000000" width="25.500000" height="27.002441" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_3_220_dd)">
+		<path id="Vector" d="M16.26 11.77L12.75 15.12L9.23 11.77C6.6 11.88 4.5 13.93 4.5 16.47L4.5 16.81C4.5 17.74 5.29 18.5 6.26 18.5L19.23 18.5C20.2 18.5 21 17.74 21 16.81L21 16.47C21 13.93 18.89 11.88 16.26 11.77ZM5 3.3L5.23 3.36L5.23 5.41C4.97 5.56 4.79 5.81 4.79 6.12C4.79 6.42 4.96 6.66 5.2 6.81L4.62 9.01C4.56 9.25 4.7 9.5 4.9 9.5L6.44 9.5C6.65 9.5 6.79 9.25 6.72 9.01L6.15 6.81C6.39 6.66 6.56 6.42 6.56 6.12C6.56 5.81 6.37 5.56 6.12 5.41L6.12 3.56L8.55 4.12C8.23 4.72 8.03 5.4 8.03 6.12C8.03 8.61 10.14 10.62 12.75 10.62C15.35 10.62 17.46 8.61 17.46 6.12C17.46 5.4 17.26 4.72 16.94 4.12L20.49 3.3C21.16 3.15 21.16 2.35 20.49 2.2L13.48 0.58C13 0.47 12.49 0.47 12.02 0.58L5 2.19C4.33 2.35 4.33 3.15 5 3.3Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M12.75 15.12L9.23 11.77C6.6 11.88 4.5 13.93 4.5 16.47L4.5 16.81C4.5 17.74 5.29 18.5 6.26 18.5L19.23 18.5C20.2 18.5 21 17.74 21 16.81L21 16.47C21 13.93 18.89 11.88 16.26 11.77L12.75 15.12ZM5.23 3.36L5.23 5.41C4.97 5.56 4.79 5.81 4.79 6.12C4.79 6.42 4.96 6.66 5.2 6.81L4.62 9.01C4.56 9.25 4.7 9.5 4.9 9.5L6.44 9.5C6.65 9.5 6.79 9.25 6.72 9.01L6.15 6.81C6.39 6.66 6.56 6.42 6.56 6.12C6.56 5.81 6.37 5.56 6.12 5.41L6.12 3.56L8.55 4.12C8.23 4.72 8.03 5.4 8.03 6.12C8.03 8.61 10.14 10.62 12.75 10.62C15.35 10.62 17.46 8.61 17.46 6.12C17.46 5.4 17.26 4.72 16.94 4.12L20.49 3.3C21.16 3.15 21.16 2.35 20.49 2.2L13.48 0.58C13 0.47 12.49 0.47 12.02 0.58L5 2.19C4.33 2.35 4.33 3.15 5 3.3L5.23 3.36Z" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.000000"/>
+	</g>
+</svg>

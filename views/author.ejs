@@ -20,13 +20,13 @@
   <body>
     <div class="frame">
       <div class="main_frame">
-        <d class="left_frame">
+        <div class="left_frame">
           <div class="left1">
             <div class="left1_img">
               <img
                 src="images/profil.png"
                 alt=""
-                style="width: 156px; height: 135px"
+                style="width: 156px; height: 135px; border-radius: 50%"
               />
             </div>
             <div class="left1_content"><%=user.name%></div>
@@ -90,29 +90,402 @@
               <strong><%=user.languages[0]%></strong>
               <span>100%</span>
             </div>
-            <img src="images/Line100.png" alt="" />
-             <div class="language">
+            <div class="progress_bar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="222"
+                height="6"
+                viewBox="0 0 222 6"
+                fill="none"
+              >
+                <rect
+                  x="0.75"
+                  y="0.75"
+                  width="220.5"
+                  height="4.5"
+                  rx="2.25"
+                  stroke="#FFB400"
+                  stroke-width="0.5"
+                />
+                <rect
+                  x="2"
+                  y="2"
+                  width="100%"
+                  height="2"
+                  rx="1"
+                  fill="#FFB400"
+                />
+              </svg>
+            </div>
+            <div class="language">
               <strong><%=user.languages[1]%></strong>
               <span>80%</span>
             </div>
-            <img src="images/Line100.png" alt="" />
+            <div class="progress_bar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="222"
+                height="6"
+                viewBox="0 0 222 6"
+                fill="none"
+              >
+                <rect
+                  x="0.75"
+                  y="0.75"
+                  width="220.5"
+                  height="4.5"
+                  rx="2.25"
+                  stroke="#FFB400"
+                  stroke-width="0.5"
+                />
+                <rect
+                  x="2"
+                  y="2"
+                  width="80%"
+                  height="2"
+                  rx="1"
+                  fill="#FFB400"
+                />
+              </svg>
+            </div>
             <div class="language">
               <strong><%=user.languages[2]%></strong>
               <span>60%</span>
             </div>
-            <img src="images/Line100.png" alt="" />
+            <div class="progress_bar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="222"
+                height="6"
+                viewBox="0 0 222 6"
+                fill="none"
+              >
+                <rect
+                  x="0.75"
+                  y="0.75"
+                  width="220.5"
+                  height="4.5"
+                  rx="2.25"
+                  stroke="#FFB400"
+                  stroke-width="0.5"
+                />
+                <rect
+                  x="2"
+                  y="2"
+                  width="60%"
+                  height="2"
+                  rx="1"
+                  fill="#FFB400"
+                />
+              </svg>
+            </div>
           </div>
-          
-           
           <div class="marginer"></div>
-          <div class="left4"></div>
+          <div class="left4">
+            <h2>Skills</h2>
+            <div class="skill">
+              <strong><%=user.skills[0]%></strong>
+              <span>90%</span>
+            </div>
+            <div class="progress_bar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="222"
+                height="6"
+                viewBox="0 0 222 6"
+                fill="none"
+              >
+                <rect
+                  x="0.75"
+                  y="0.75"
+                  width="220.5"
+                  height="4.5"
+                  rx="2.25"
+                  stroke="#FFB400"
+                  stroke-width="0.5"
+                />
+                <rect
+                  x="2"
+                  y="2"
+                  width="90%"
+                  height="2"
+                  rx="1"
+                  fill="#FFB400"
+                />
+              </svg>
+            </div>
+            <div class="skill">
+              <strong><%=user.skills[1]%></strong>
+              <span>85%</span>
+            </div>
+            <div class="progress_bar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="222"
+                height="6"
+                viewBox="0 0 222 6"
+                fill="none"
+              >
+                <rect
+                  x="0.75"
+                  y="0.75"
+                  width="220.5"
+                  height="4.5"
+                  rx="2.25"
+                  stroke="#FFB400"
+                  stroke-width="0.5"
+                />
+                <rect
+                  x="2"
+                  y="2"
+                  width="85%"
+                  height="2"
+                  rx="1"
+                  fill="#FFB400"
+                />
+              </svg>
+            </div>
+            <div class="skill">
+              <strong><%=user.skills[2]%></strong>
+              <span>80%</span>
+            </div>
+            <div class="progress_bar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="222"
+                height="6"
+                viewBox="0 0 222 6"
+                fill="none"
+              >
+                <rect
+                  x="0.75"
+                  y="0.75"
+                  width="220.5"
+                  height="4.5"
+                  rx="2.25"
+                  stroke="#FFB400"
+                  stroke-width="0.5"
+                />
+                <rect
+                  x="2"
+                  y="2"
+                  width="80%"
+                  height="2"
+                  rx="1"
+                  fill="#FFB400"
+                />
+              </svg>
+            </div>
+            <div class="skill">
+              <strong><%=user.skills[3]%></strong>
+              <span>75%</span>
+            </div>
+            <div class="progress_bar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="222"
+                height="6"
+                viewBox="0 0 222 6"
+                fill="none"
+              >
+                <rect
+                  x="0.75"
+                  y="0.75"
+                  width="220.5"
+                  height="4.5"
+                  rx="2.25"
+                  stroke="#FFB400"
+                  stroke-width="0.5"
+                />
+                <rect
+                  x="2"
+                  y="2"
+                  width="75%"
+                  height="2"
+                  rx="1"
+                  fill="#FFB400"
+                />
+              </svg>
+            </div>
+            <div class="skill">
+              <strong><%=user.skills[4]%></strong>
+              <span>85%</span>
+            </div>
+            <div class="progress_bar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="222"
+                height="6"
+                viewBox="0 0 222 6"
+                fill="none"
+              >
+                <rect
+                  x="0.75"
+                  y="0.75"
+                  width="220.5"
+                  height="4.5"
+                  rx="2.25"
+                  stroke="#FFB400"
+                  stroke-width="0.5"
+                />
+                <rect
+                  x="2"
+                  y="2"
+                  width="85%"
+                  height="2"
+                  rx="1"
+                  fill="#FFB400"
+                />
+              </svg>
+            </div>
+          </div>
           <div class="marginer"></div>
-          <div class="left5"></div>
+          <div class="left5">
+            <h2>Extra Skills</h2>
+            <a href="" class="extra_skill">
+              <img src="images/extraskillicon.png" alt="" />
+              <span class="skills"><%=user.extra_skills[0]%></span>
+            </a>
+            <a href="" class="extra_skill">
+              <img src="images/extraskillicon.png" alt="" />
+              <span class="skills"><%=user.extra_skills[1]%></span>
+            </a>
+            <a href="" class="extra_skill">
+              <img src="images/extraskillicon.png" alt="" />
+              <span class="skills"><%=user.extra_skills[2]%></span>
+            </a>
+            <a href="" class="extra_skill">
+              <img src="images/extraskillicon.png" alt="" />
+              <span class="skills"><%=user.extra_skills[3]%></span>
+            </a>
+          </div>
           <div class="marginer"></div>
         </div>
+        <div class="midd_frame">
+          <div class="midd_head">
+            <div class="">
+              <img
+                class="icon_box"
+                src="images/icon1.svg"
+                alt=""
+                style="left: 40px; top: 60px"
+              />
+              <img
+                class="icon_box"
+                src="images/icon2.svg"
+                alt=""
+                style="bottom: 20px; right: 40px"
+              />
+              <img
+                class="icon_box"
+                src="images/icon1.svg"
+                alt=""
+                style="bottom: 60px; right: 430px"
+              />
+              <img
+                class="icon_box"
+                src="images/icon2.svg"
+                alt=""
+                style="left: 500px; top: 70px"
+              />
+              <img
+                class="icon_box"
+                src="images/icon3.svg"
+                alt=""
+                style="bottom: 90px; right: 580px"
+              />
+              <img
+                class="icon_box"
+                src="images/icon4.svg"
+                alt=""
+                style="bottom: 30px; right: 880px"
+              />
+              <img
+                class="icon_box"
+                src="images/icon4.svg"
+                alt=""
+                style="left: 880px; top: 40px"
+              />
+            </div>
+            <div class="midd_left">
+              <h1>Doctor neurologists in OHSU Hospital</h1>
+              <p><%=user.about_me%></p>
 
-        <div class="midd_frame"></div>
-        <div class="right_frame"></div>
+              <a href="">
+                <button>Hire Me</button>
+              </a>
+            </div>
+            <div class="midd_right">
+              <img src="images/profil.png" alt="" />
+            </div>
+          </div>
+          <div class="midd_bott">
+            <div class="bott_content">
+              <h1>My Services</h1>
+              <p><%=user.service_desc%></p>
+            </div>
+            <div class="bott_boxes">
+              <div class="bott_box">
+                <img src="images/ser1.svg" alt="" />
+                <strong class="str_box">Web Development</strong>
+                <span class="spn_box">Blog, E-commerce</span>
+              </div>
+              <div class="bott_box">
+                <img src="images/ser2.svg" alt="" />
+                <strong class="str_box">UI/UX Design</strong>
+                <span class="spn_box">Mobile app, website design</span>
+              </div>
+              <div class="bott_box">
+                <img src="images/ser3.svg" alt="" />
+                <strong class="str_box">Sound Design</strong>
+                <span class="spn_box">Voice Over, Beat Making</span>
+              </div>
+              <div class="bott_box">
+                <img src="images/ser4.svg" alt="" />
+                <strong class="str_box">Game Design</strong>
+                <span class="spn_box">Character Design, Props& Objects</span>
+              </div>
+              <div class="bott_box">
+                <img src="images/ser5.svg" alt="" />
+                <strong class="str_box">Photography</strong>
+                <span class="spn_box">Portrait, Product Photography</span>
+              </div>
+              <div class="bott_box">
+                <strong class="str_box2">Advertising</strong>
+                <span class="spn_box2"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Vitae nulla diam in ac dictum a urna viverra morbi.
+                </span>
+                <a href="">Order Now ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right_frame">
+          <a href="" class="bar_top">
+            <img src="images/bar.svg" alt="" />
+          </a>
+          <div class="right_home">
+            <a href="" class="bar_main .active">
+              <img src="images/bar1.svg" alt="" />
+            </a>
+            <a href="" class="bar_main">
+              <img src="images/bar2.svg" alt="" />
+            </a>
+            <a href="" class="bar_main">
+              <img src="images/bar3.svg" alt="" />
+            </a>
+            <a href="" class="bar_main">
+              <img src="images/bar4.svg" alt="" />
+            </a>
+            <a href="" class="bar_main">
+              <img src="images/bar5.svg" alt="" />
+            </a>
+            <a href="" class="bar_main">
+              <img src="images/bar6.svg" alt="" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </body>
