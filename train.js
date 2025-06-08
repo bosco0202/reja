@@ -24,16 +24,16 @@
 //     });
 //   }
 // }
-///call via then/catch
-// // console.log("passed here 0");
-// // maslahatBering(20)
-// //   .then((data) => {
-// //     console.log("javob:", data);
-// //   })
-// //   .catch((err) => {
-// //     console.log("ERROR:", err);
-// //   });
-// // console.log("passed here 1");
+////call via then/catch
+// console.log("passed here 0");
+// maslahatBering(20)
+//   .then((data) => {
+//     console.log("javob:", data);
+//   })
+//   .catch((err) => {
+//     console.log("ERROR:", err);
+//   });
+// console.log("passed here 1");
 
 // //asyn await
 // async function run() {
@@ -48,13 +48,30 @@
 // }
 // run();
 
-function task(letter, text) {
-  let count = 0;
-  for (let i = 0; i < text.length; i++) {
-    if (text[i] === letter) {
-      count++;
-    }
-  }
-  return count;
-}
-console.log(task("e", "engineer"));
+// function task(letter, text) {
+//   let count = 0;
+//   for (let i = 0; i < text.length; i++) {
+//     if (text[i] === letter) {
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+// console.log(task("e", "engineer"));
+
+// function qoldiqTopish(a, b, callback) {
+//   if (b === 0) callback("Mahraj Nolga teng bololmaydi", null);
+//   else {
+//     const c = a % b;
+//     callback(null, c);
+//   }
+// }
+
+// // CALL
+// console.log("PASSED A");
+// qoldiqTopish(10, 3, (err, data) => {
+//   if (err)
+//     console.log(err);
+//   else console.log(data);
+// });
+// console.log("PASSED B");
