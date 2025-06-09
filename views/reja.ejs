@@ -18,7 +18,7 @@
           <div class="d-flex align-items-center">
             <input
               id="create-field"
-              name="item"
+              name="reja"
               autofocus
               autocomplete="off"
               class="form-control mr-3"
@@ -31,9 +31,22 @@
           </div>
         </form>
       </div>
-      <button id="clean-all" class="btn btn-danger" style="border-radius: 20px">
-        Hamma rejani ochirish
-      </button>
+      <ul id="item-list" class="list-group pb-5">
+        <li
+          class="list-group-item list-group-item-info d-flex align-items-center justify-content-between"
+        >
+          <span class="item-text"></span>
+          <div>
+            <button
+              id="clean-all"
+              class="btn btn-danger"
+              style="border-radius: 20px"
+            >
+              Hamma rejani ochirish
+            </button>
+          </div>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
