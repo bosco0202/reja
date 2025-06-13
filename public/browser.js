@@ -1,19 +1,21 @@
 console.log("Frontend js ishga tushdi");
 
+console.log("Frontend js ishga tushdi");
+
 function itemTemplate(data) {
   return `  <li
           class="list-group-item list-group-item-info d-flex align-items-center justify-content-between"
         >
-          <span class="item-text">${item.reja}</span>
+          <span class="item-text">${data.reja}</span>
           <div>
             <button
-              data-id="${item.reja}"
+              data-id="${data.reja}"
               class="edit-me btn btn-secondary btn-sm mr-1"
             >
               Ozgartirish
             </button>
             <button
-              data-id="${item.reja}"
+              data-id="${data.reja}"
               class="delete-me btn btn-danger btn-sm"
             >
               Ochirish
@@ -22,19 +24,19 @@ function itemTemplate(data) {
         </li>`;
 }
 
-let creadFild = document.getElementById("create-field");
+let createFild = document.getElementById("create-field");
 
 document.getElementById("create-form").addEventListener("submit", function (e) {
   e.preventDefault();
 
   axios
-    .post("/create-item", { reja: creadFild.value })
+    .post("/create-item", { reja: createFild.value })
     .then((response) => {
       document
         .getElementById("item-list")
         .insertAdjacentHTML("beforeend", itemTemplate(response.data));
-      creadFild.value = "";
-      creadFild.focus();
+      createFild.value = "";
+      createFild.focus();
     })
     .catch((err) => {
       console.log("Iltimos qyta harakat qiling");
