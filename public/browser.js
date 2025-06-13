@@ -36,7 +36,7 @@ document.getElementById("create-form").addEventListener("submit", function (e) {
         .getElementById("item-list")
         .insertAdjacentHTML("beforeend", itemTemplate(response.data));
       createFild.value = "";
-      createFild.focus();
+      createFilgid.focus();
     })
     .catch((err) => {
       console.log("Iltimos qyta harakat qiling");
