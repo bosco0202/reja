@@ -61,11 +61,25 @@ document.addEventListener("click", function (e) {
 
   //edit operations
   if (e.target.classList.contains("edit-me")) {
-    // alert("siz edit tugmasini bosdingiz");
-    // if (confirm("aniq edit ochirmoqchimisz?")) {
-    //   alert("yes deb javob berildi");
-    // } else {
-    //   alert("no deb javob berildi");
-    // }
+    let userInput = prompt(
+      "Ozgartirish kiriting",
+      e.target.parentElement.parentElement.querySelector(".item-text").innerHTML
+    );
+    if (userInput) {
+      axios
+        .post("/edit-item", {
+          id: e.target.getAttribute("data-id"),
+          new_input: userInput,
+        })
+        .then((response) => {
+          console.log(response.data);
+          e.target.parentElement.parentElement.querySelector(
+            ".item-text"
+          ).innerHTML = userInput;
+        })
+        .catch((err) => {
+          console.log("Iltimos qaytadan harakat qiling!");
+        });
+    }
   }
 });
