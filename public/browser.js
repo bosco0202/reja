@@ -4,11 +4,11 @@ function itemTemplate(item) {
   return `<li
           class="list-group-item list-group-item-info d-flex align-items-center justify-content-between"
         >
-          <item.reja class="item-text">${item.reja}</span>
+          <span class="item-text">${item.reja}</span>
           <div>
             <button
               data-id="${item._id}"
-              class="edit-me btn btn-secondary btn-sm mr-1"
+               class="edit-me btn btn-secondary btn-sm mr-1"
             >
               Ozgartirish
             </button>
