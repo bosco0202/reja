@@ -164,12 +164,22 @@
 
 // Task D:
 
-function checkContent(harf1, harf2) {
-  const a1 = harf1.split("").sort().join("");
-  const a2 = harf2.split("").sort().join("");
+// function checkContent(harf1, harf2) {
+//   const a1 = harf1.split("").sort().join("");
+//   const a2 = harf2.split("").sort().join("");
 
-  return a1 === a2;
+//   return a1 === a2;
+// }
+
+// console.log(checkContent("mitgroup", "gmtiprou"));
+// console.log(checkContent("flexy", "xyfla"));
+
+//Task E
+function getReverse(text) {
+  return text.split(``).reverse().join(``);
 }
+let a = "hello world";
+let natija = getReverse(a);
 
-console.log(checkContent("mitgroup", "gmtiprou"));
-console.log(checkContent("flexy", "xyfla"));
+//call
+console.log(natija);
