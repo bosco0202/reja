@@ -183,3 +183,17 @@ let natija = getReverse(a);
 
 //call
 console.log(natija);
+
+//Task F
+function findDoublers(str) {
+  for (let i = 0; i < str.length; i++) {
+    for (let j = i + 1; j < str.length; j++) {
+      if (str[i] === str[j]) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+console.log(findDoublers("hello"));
+console.log(findDoublers("MIT"));
